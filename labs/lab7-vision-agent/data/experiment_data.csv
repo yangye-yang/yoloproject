@@ -1,0 +1,7 @@
+round,model,fps,latency_s,pass_count,log_file,notes
+n-1,yolo26n-pose,12.12,0.22,3,run_n1.log,只算到“穿什么”那问；通过数/3；延迟为转写时间差
+n-2,yolo26n-pose,12.27,0.42,3,run_n2.log,启动0.18不计；Q2提到面部绿色红色标记线（YOLO骨架）
+n-3,yolo26n-pose,12.58,0.01,2,run_n3.log,Q2“外面有什么”被理解成室外答看不清；启动0.39不计
+s-1,yolo26s-pose,6.53,0.11,3,run_s1.log,只算3问；延迟为转写时间差；启动3.12不计
+s-2,yolo26s-pose,7.39,0.56,3,run_s2.log,启动0.40不计；延迟为转写时间差
+s-3,yolo26s-pose,6.80,0.16,3,run_s3.log,启动0.59不计；延迟为转写时间差

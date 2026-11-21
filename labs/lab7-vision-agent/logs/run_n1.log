@@ -1,0 +1,99 @@
+13:07:29.618 | INFO     | 🚀 Launching agent...
+13:07:29.618 | INFO     | Creating agent...
+13:07:34.508 | INFO     | ✅ YOLO pose model loaded: yolo26n-pose.pt on cpu
+13:07:34.515 | INFO     | 🤖 YOLO Pose Processor initialized with model: yolo26n-pose.pt
+13:07:34.517 | INFO     | [Agent: agent-b48b005f-82e5-40d7-9837-f014ab3f70cc] | 🎥 Video track initialized from video publisher
+13:07:34.517 | INFO     | Warming up agent components...
+13:07:34.626 | INFO     | Agent warmup completed
+13:07:34.626 | INFO     | [Agent: agent-b48b005f-82e5-40d7-9837-f014ab3f70cc] | 🤖 Stopping the agent
+13:07:34.648 | INFO     | [Agent: agent-b48b005f-82e5-40d7-9837-f014ab3f70cc] | 🤖 Agent stopped
+13:07:34.648 | INFO     | ✅ Agent warmed up and ready
+13:07:34.648 | INFO     | 📞 Joining call: default/eb6dc486-7148-4457-befa-f8e96b9dbcf6
+13:07:36.738 | INFO     | ✅ YOLO pose model loaded: yolo26n-pose.pt on cpu
+13:07:36.743 | INFO     | 🤖 YOLO Pose Processor initialized with model: yolo26n-pose.pt
+13:07:36.744 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🎥 Video track initialized from video publisher
+13:07:36.745 | INFO     | Started agent session with id 25e1145e-8b4c-422f-beb8-1bd2906d3d41
+13:07:36.745 | INFO     | 🌐 Opening demo UI...
+13:07:39.860 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🤖 Agent joining call: eb6dc486-7148-4457-befa-f8e96b9dbcf6
+13:07:39.889 | INFO     | 🌐 Opening browser to: https://getstream.io/video/demos/join/eb6dc486-7148-4457-befa-f8e96b9dbcf6?api_key=***&token=***&skip_lobby=true&user_name=Human+User&video_encoder=h264&bitrate=12000000&w=1920&h=1080&channel_type=messaging
+13:07:40.004 | INFO     | ✅ Browser opened successfully!
+13:07:40.966 | INFO     | Gemini live connected to session <google.genai.live.AsyncSession object at 0x0000024B28019BE0>
+13:07:43.800 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🤖 Agent joined call: eb6dc486-7148-4457-befa-f8e96b9dbcf6
+13:07:46.739 | INFO     | 🤖 Agent ready to speak
+13:07:46.740 | INFO     | 🎥 Agent ready to publish video
+13:07:46.893 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | Waiting for other participants to join
+13:07:51.973 | INFO     | 🎤 [Agent transcript]: Hello, I'm here to
+13:07:52.194 | INFO     | 🎤 [Agent transcript]: help with whatever
+13:07:52.434 | INFO     | 🎤 [Agent transcript]:  you'd like to show me.
+13:07:53.829 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 📺 Track added: VIDEO from user-demo-agent
+13:07:53.830 | INFO     | 🎥 Starting YOLO video processing at 30 FPS
+13:07:53.830 | INFO     | Started video forwarding with 3 FPS
+13:07:53.831 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 📺 Track added: VIDEO from user-demo-agent
+13:07:53.831 | INFO     | 🎥 Stopping the ongoing YOLO video processing because the new video track is published
+13:07:53.832 | INFO     | 🎥 Starting YOLO video processing at 30 FPS
+13:07:53.832 | INFO     | 🛑 Stopped video forwarding to Gemini (participant left)
+13:07:53.832 | INFO     | Started video forwarding with 3 FPS
+13:07:53.833 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 📺 Track added: VIDEO from user-demo-agent
+13:07:53.833 | INFO     | 🎥 Stopping the ongoing YOLO video processing because the new video track is published
+13:07:53.833 | INFO     | 🎥 Starting YOLO video processing at 30 FPS
+13:07:53.834 | INFO     | 🛑 Stopped video forwarding to Gemini (participant left)
+13:07:53.834 | INFO     | Started video forwarding with 3 FPS
+13:08:08.756 | INFO     | 📊 YOLO 实测帧率: 0.99 fps | 模型: yolo26n-pose.pt
+13:08:13.793 | INFO     | 📊 YOLO 实测帧率: 12.70 fps | 模型: yolo26n-pose.pt
+13:08:18.850 | INFO     | 📊 YOLO 实测帧率: 12.26 fps | 模型: yolo26n-pose.pt
+13:08:23.859 | INFO     | 📊 YOLO 实测帧率: 11.98 fps | 模型: yolo26n-pose.pt
+13:08:28.935 | INFO     | 📊 YOLO 实测帧率: 12.61 fps | 模型: yolo26n-pose.pt
+13:08:29.503 | INFO     | 🎤 [User transcript]: 能看到我在做什么吗?
+13:08:29.509 | INFO     | 🎤 [Agent transcript]: 我看到你正在向我挥手打招呼。
+13:08:33.965 | INFO     | 📊 YOLO 实测帧率: 12.13 fps | 模型: yolo26n-pose.pt
+13:08:38.986 | INFO     | 📊 YOLO 实测帧率: 11.55 fps | 模型: yolo26n-pose.pt
+13:08:39.250 | INFO     | 🎤 [User transcript]: family 有什么?
+13:08:39.878 | INFO     | 🎤 [Agent transcript]: 画面里有你的上半身，背景是一
+13:08:39.902 | INFO     | 🎤 [Agent transcript]: 张双层床和
+13:08:39.903 | INFO     | 🎤 [Agent transcript]: 挂着的衣服。
+13:08:44.010 | INFO     | 📊 YOLO 实测帧率: 12.14 fps | 模型: yolo26n-pose.pt
+13:08:49.024 | INFO     | 📊 YOLO 实测帧率: 11.57 fps | 模型: yolo26n-pose.pt
+13:08:53.377 | INFO     | 🎤 [User transcript]: 我身上穿着什么?
+13:08:53.390 | INFO     | 🎤 [Agent transcript]: 你身上穿的是一件浅色的圆
+13:08:53.414 | INFO     | 🎤 [Agent transcript]: 领上衣。
+13:08:54.072 | INFO     | 📊 YOLO 实测帧率: 11.89 fps | 模型: yolo26n-pose.pt
+13:08:59.096 | INFO     | 📊 YOLO 实测帧率: 11.55 fps | 模型: yolo26n-pose.pt
+13:09:04.067 | INFO     | 🎤 [User transcript]: m
+13:09:04.113 | INFO     | 📊 YOLO 实测帧率: 12.16 fps | 模型: yolo26n-pose.pt
+13:09:05.300 | INFO     | 🎤 [User transcript]: ientras
+13:09:06.784 | INFO     | 🎤 [User transcript]:  duerme
+13:09:09.132 | INFO     | 📊 YOLO 实测帧率: 12.15 fps | 模型: yolo26n-pose.pt
+13:09:09.883 | INFO     | 🎤 [User transcript]: , me hizo mal
+13:09:13.433 | INFO     | 🎤 [Agent transcript]: 刚才有一位戴着眼镜和耳
+13:09:13.457 | INFO     | 🎤 [Agent transcript]: 机的朋友走到
+13:09:13.463 | INFO     | 🎤 [Agent transcript]: 你的身后。
+13:09:13.676 | INFO     | 👉 Participant barged-in, interrupting the agent
+13:09:14.198 | INFO     | 📊 YOLO 实测帧率: 11.45 fps | 模型: yolo26n-pose.pt
+13:09:14.761 | INFO     | 🎤 [User transcript]: 我在。
+13:09:16.279 | INFO     | 🎤 [Agent transcript]: 好的，请问接下来有什么
+13:09:16.308 | INFO     | 🎤 [Agent transcript]: 想跟我分享的吗?
+13:09:19.260 | INFO     | 📊 YOLO 实测帧率: 12.25 fps | 模型: yolo26n-pose.pt
+13:09:24.321 | INFO     | 📊 YOLO 实测帧率: 12.84 fps | 模型: yolo26n-pose.pt
+13:09:25.838 | INFO     | 🎤 [User transcript]: sapi
+13:09:26.651 | INFO     | 🎤 [Agent transcript]: 我听不太清楚，
+13:09:26.669 | INFO     | 🎤 [Agent transcript]: 你可以再
+13:09:26.671 | INFO     | 🎤 [Agent transcript]: 说一次吗?
+13:09:29.395 | INFO     | 📊 YOLO 实测帧率: 12.02 fps | 模型: yolo26n-pose.pt
+13:09:29.615 | INFO     | 👉 Participant barged-in, interrupting the agent
+13:09:31.292 | INFO     | 🎤 [User transcript]: noches
+13:09:33.603 | INFO     | 🎤 [User transcript]:  buenas buenas
+13:09:34.435 | INFO     | 📊 YOLO 实测帧率: 11.71 fps | 模型: yolo26n-pose.pt
+13:09:38.465 | INFO     | 🎤 [Agent transcript]: ¡Buenas noches! ¿En
+13:09:38.594 | INFO     | 🎤 [Agent transcript]: qué puedo ayudarte
+13:09:38.595 | INFO     | 🎤 [Agent transcript]: hoy?
+13:09:39.482 | INFO     | 📊 YOLO 实测帧率: 19.22 fps | 模型: yolo26n-pose.pt
+13:09:42.670 | INFO     | 🎤 [User transcript]: O
+13:09:44.121 | INFO     | 🎤 [Agent transcript]: 请问有什么我可以帮您的吗?
+13:09:44.542 | INFO     | 📊 YOLO 实测帧率: 12.05 fps | 模型: yolo26n-pose.pt
+13:09:47.968 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🤖 Stopping the agent
+13:09:47.968 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🎵 Audio consumer task cancelled
+13:09:47.969 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🎵 Audio producer task cancelled
+13:09:47.969 | INFO     | 🛑 Stopped video forwarding to Gemini (participant left)
+13:09:47.970 | INFO     | 🛑 Stopped YOLO video processing (participant left)
+13:10:52.538 | INFO     | [Agent: agent-126cb3cd-3a66-4fac-b9ea-800c1e550d3e] | 🤖 Agent stopped
+13:10:52.538 | INFO     | The session is cancelled, shutting down gracefully...

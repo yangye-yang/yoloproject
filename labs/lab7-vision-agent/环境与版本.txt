@@ -1,0 +1,35 @@
+专题七 A+B2 实验环境与版本
+============================
+
+系统        Windows 11
+Python      3.13.7
+uv          0.13.9 (6b2d39dcc 2026-11-17 x86_64-pc-windows-msvc)
+
+Vision-Agents 仓库
+  repo      https://github.com/GetStream/Vision-Agents
+  commit    902db86438aab03fb64aa7e6ea3afdcc867a3e80
+
+关键依赖
+  torch               2.15.0+cpu
+  ultralytics         8.4.216
+  google-genai        2.34.0
+  getstream           4.3.0
+  numpy               2.2.6
+  opencv-python       5.1.0.95
+  vision-agents       0.0.0（本地 editable）
+  vision-agents-plugins-gemini / getstream / ultralytics  0.0.0（本地 editable）
+
+模型权重
+  yolo26n-pose.pt     7,878,574 bytes
+  yolo26s-pose.pt     24,151,790 bytes
+
+运行命令
+  set "YOLO_MODEL=yolo26n-pose.pt"
+  powershell -NoProfile -Command "uv run general_agent.py run 2>&1 | Tee-Object -FilePath run_n1.log"
+
+  set "YOLO_MODEL=yolo26s-pose.pt"
+  powershell -NoProfile -Command "uv run general_agent.py run 2>&1 | Tee-Object -FilePath run_s1.log"
+
+说明
+  1. Stream 与 Gemini 的密钥只写在示例目录的 .env，未写入代码、日志和本文件。
+  2. 仓库按课件指定的 commit 固定，未使用 main 分支的后续改动。

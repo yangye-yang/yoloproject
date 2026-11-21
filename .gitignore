@@ -1,0 +1,21 @@
+# 凭据与本地环境，绝不提交
+.env
+*.env
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.uv-cache/
+torchinductor_*/
+
+# 大文件（视频放网盘，仓库只留链接）
+*.mp4
+*.mov
+*.avi
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 模型权重（如需可单独说明来源）
+*.pt
